@@ -38,4 +38,6 @@ La primera clase, Juego, contiene todo lo que se realizó en proyecto integrador
 La segunda clase, JuegoArchivo es la encargada de leer un archivo .txt de una ruta que da a la carpeta donde se tienen los archivos de los mapas. De estos archivos se elige uno aleatorio y se retorna una cadena de carácteres con el mapa y puntos inicial y final.
 - Se utiliza os.listdir para tener una lista de los archivos en un directorio.
 - Se utiliza random.choice para elegir un archivo aleatorio.
-- Se utiliza .strip para eliminar espacios en blanco antes o después cuando se va a sacar la matriz de caracteres para el laberinto. 
+- Se utiliza .strip para eliminar espacios en blanco antes o después cuando se va a sacar la matriz de caracteres para el laberinto.
+
+* Finalmente, con este avance se importan estas clases al main del juego (from protectointegrador_5 import Juego, JuegoArchivo) y desde allí se ingresa la ruta y se crea una instancia del juego para activarlo desde el main. 
